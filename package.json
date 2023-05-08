@@ -14,25 +14,25 @@
   "contributes": {
     "commands": [
       {
-        "command": "code-remark.askQuestion",
+        "command": "code-remark.menusAddRemark",
         "title": "添加项目备注"
       },
       {
-        "command": "code-remark.addTest",
+        "command": "code-remark.documentAddRemark",
         "title": "添加项目备注"
       }
     ],
     "menus": {
       "editor/context": [
         {
-          "command": "code-remark.addTest",
+          "command": "code-remark.documentAddRemark",
           "group": "group1"
         }
       ],
       "explorer/context": [
         {
-          "command": "code-remark.askQuestion",
-          "group": "group1"
+          "command": "code-remark.menusAddRemark",
+          "group": "group2"
         }
       ]
     }
